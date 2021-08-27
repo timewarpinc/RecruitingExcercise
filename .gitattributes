@@ -1,0 +1,19 @@
+# Macro for Unity YAML-based asset files.
+[attr]unityyaml -text merge=unityyamlmerge diff -whitespace
+# Macro for all binary files that should use Git LFS.
+[attr]lfs -text filter=lfs diff=lfs merge=lfs
+
+*.cs diff=csharp text
+*.cginc text
+*.shader text
+
+*.mat unityyaml
+*.anim unityyaml
+*.unity unityyaml
+*.prefab unityyaml
+*.physicsMaterial2D unityyaml
+*.physicMaterial unityyaml
+*.asset unityyaml
+*.meta unityyaml linguist-generated
+*.controller unityyaml
+*.asmdef -text diff
