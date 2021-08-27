@@ -13,7 +13,7 @@ Implement Fog of War. The scene is `Assets/Dungeon/Dungeon.unity`.
 
 If you want to show off, you can also consider following:
 
-* Dim area you discovered, but not currently standing in. 
+* Dim an area you discovered, but not currently standing in. 
 * Correctly uncover the fog just 1 tile behind any wall tile.
 * Uncover the whole room once the player enters.
 * Have two levels of uncovering (more dimmed and less).
@@ -21,7 +21,7 @@ If you want to show off, you can also consider following:
 
 ## Rules
 
-There isn't many rules.
+There aren't many rules.
 
 * Treat this as production project.
 * We would like Git history.
